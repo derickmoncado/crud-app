@@ -20,19 +20,21 @@ export class UsersComponent implements OnInit {
   ngOnInit(): void {
     this.users = [
       {
-        firstName: 'Derick',
-        lastName: 'Moncado',
+        firstName: 'EmoChick',
+        lastName: 'Rose',
         age: 72,
         address: {
           street: '7784 Envoy Way',
           city: 'Citrus Heights',
           state: 'CA',
         },
-        image: 'http://lorempixel.com/600/600/people/3',
+        image: 'http://lorempixel.com/600/600/people/9',
         isActive: true,
+        balance: 100,
+        registered: new Date('01/02/2020 09:30:00'),
       },
       {
-        firstName: 'Korbin',
+        firstName: 'Daisy',
         lastName: 'Dallas',
         age: 52,
         address: {
@@ -40,8 +42,10 @@ export class UsersComponent implements OnInit {
           city: 'New York City',
           state: 'NY',
         },
-        image: 'http://lorempixel.com/600/600/people/2',
+        image: 'http://lorempixel.com/600/600/people/6',
         isActive: false,
+        balance: 150,
+        registered: new Date('03/05/2020 06:30:00'),
       },
       {
         firstName: 'Ash',
@@ -52,8 +56,10 @@ export class UsersComponent implements OnInit {
           city: 'Pallet Town',
           state: 'CA',
         },
-        image: 'http://lorempixel.com/600/600/people/1',
+        image: 'http://lorempixel.com/600/600/people/5',
         isActive: true,
+        balance: 550,
+        registered: new Date('05/11/2020 02:30:00'),
       },
     ];
 

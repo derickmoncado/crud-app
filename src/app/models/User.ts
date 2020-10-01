@@ -9,4 +9,6 @@ export interface IUser {
   };
   image?: string;
   isActive?: boolean;
+  balance?: number;
+  registered?: any;
 }
